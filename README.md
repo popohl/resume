@@ -10,5 +10,5 @@ Light Mint: #e7f7f4
 
 Left to do:
 - Title change with language
-- Image resize
 - Nice language buttons
+- Responsive
