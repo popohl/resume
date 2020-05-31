@@ -8,9 +8,9 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="../style.css">
 	<!-- i18next JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/19.3.0/i18next.min.js"></script>
+	<script async src="https://cdnjs.cloudflare.com/ajax/libs/i18next/19.3.0/i18next.min.js"></script>
 	<!-- framework for i18next -->
-	<script src="https://cdn.jsdelivr.net/npm/loc-i18next@0.1.4/loc-i18next.min.js"></script>
+	<script async src="https://cdn.jsdelivr.net/npm/loc-i18next@0.1.4/loc-i18next.min.js"></script>
 	<!-- language script -->
 	<script defer src="./lang.js"></script>
 	<title>CV de Paul OHL</title>
@@ -19,7 +19,7 @@
 <body>
 	<nav>
 		<div>
-			<img src="../profile.jpg" alt="Photo de Paul OHL">
+			<img sizes="(max-width: 1400px) 100vw, 1400px" srcset="img/profile_scale,w_200.webp 200w, img/profile_scale,w_662.webp 662w, img/profile_scale,w_1041.webp 1041w, img/profile_scale,w_1342.webp 1342w, img/profile_scale,w_1400.webp 1400w" src="img/profile_scale,w_1400.webp" alt="Photo Paul OHL">
 		</div>
 		<h1 data-i18n="author.name"></h1>
 		<p data-i18n="author.job"></p>
