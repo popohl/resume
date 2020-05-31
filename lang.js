@@ -63,9 +63,35 @@ var resources =
 				},
 				experience: {
 					title: "Experience",
+					items: {
+						title: "December 2018",
+						content: "Realization of a freelance mission for a client - Creation of an interactive Excel file using Visual Basics"
+					}
 				},
 				software_skills: {
 					title: "Software skills",
+					items: [
+						{
+							title: "C",
+							content: "Mastery of many concepts in C, use of external libraries, interpretation of manuals."
+						},
+						{
+							title: "Python",
+							content: "Strong knowledge, use of external libraries, use of documentation."
+						},
+						{
+							title: "HTML/CSS/JS",
+							content: "Strong knowledge, use of APIs and frameworks (such as Jquery)."
+						},
+						{
+							title: "PHP/Node.js",
+							content: "Strong knowledge of PHP, beginner in Node, use of documentation, online app deployment."
+						},
+						{
+							title: "Linux",
+							content: "Base knowledge of navigation in a UNIX system, intermediate script writing."
+						},
+					]
 				},
 				other_skills: {
 					title: "Other skills",
@@ -113,12 +139,58 @@ var resources =
 				},
 				experience: {
 					title: "Expérience",
+					items: [
+						{
+							title: "Décembre 2018",
+							content: "Réalisation d'une mission en Freelance pour un client - Création d'un fichier Excel interactif en utilisant Visual Basics"
+						}
+					]
 				},
 				software_skills: {
 					title: "Compétences en programmation",
+					items: [
+						{
+							title: "C",
+							content: "Maîtrise de nombreux concepts en C, utilisation de librairies externe, interprétation de manuels."
+						},
+						{
+							title: "Python",
+							content: "Bonne maîtrise, utilisation de librairies externe, utilisation de documentation."
+						},
+						{
+							title: "HTML/CSS/JS",
+							content: "Bonne maîtrise, utilisation d’APIs et de frameworks (Jquery)."
+						},
+						{
+							title: "PHP/Node.js",
+							content: "Bonne maîtrise de PHP, débutant Node, utilisation de documentation, déploiement d’applications en ligne."
+						},
+						{
+							title: "Linux",
+							content: "Connaissances de base de la navigation dans un système UNIX, création de scripts."
+						},
+					]
 				},
 				other_skills: {
 					title: "Autres compétences",
+					items: [
+						{
+							title: "Langues",
+							content: "Anglais : écrit, compris et parlé couramment.<br>Allemand : écrit, compris et parlé niveau A2.<br>Espagnol : écrit, compris et parlé niveau A2."
+						},
+						{
+							title: "Logiciels",
+							content: "Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D(Blender,SolidWorks) et de logiciels de montage vidéo (Final Cut Pro)."
+						},
+						{
+							title: "Permis de conduire",
+							content: "Permis B1 acquis en 2018"
+						},
+						{
+							title: "Musique",
+							content: "Piano, guitare, batterie, basse, lecture clés de sol et fa. Capacité à écrire une partitiond’oreille."
+						},
+					]
 				}
 			}
 		}
