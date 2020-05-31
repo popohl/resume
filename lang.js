@@ -45,19 +45,19 @@ var resources =
 					items: [
 						{
 							title: "October 2019 - Present",
-							content: "Started school at 42 school of code",
+							content: ["Started school at 42 school of code",]
 						},
 						{
 							title: "February 2019 - August 2019",
-							content: "OpenClassrooms Junior Developper course - Graduated"
+							content: ["OpenClassrooms Junior Developper course", "Graduated"]
 						},
 						{
 							title: "September 2017 - July 2018",
-							content: "1st year of Diploma in accounting and management in work-study"
+							content: ["1st year of Diploma in accounting and management in work-study"]
 						},
 						{
 							title: "June 2017",
-							content: "Final exams in science section of Highschool (Graduated with honors)"
+							content: ["Final exams in science section of Highschool (Graduated with honors)"]
 						},
 					],
 				},
@@ -65,7 +65,7 @@ var resources =
 					title: "Experience",
 					items: {
 						title: "December 2018",
-						content: "Realization of a freelance mission for a client - Creation of an interactive Excel file using Visual Basics"
+						content: ["Realization of a freelance mission for a client", "Creation of an interactive Excel file using Visual Basics"]
 					}
 				},
 				software_skills: {
@@ -73,28 +73,46 @@ var resources =
 					items: [
 						{
 							title: "C",
-							content: "Mastery of many concepts in C, use of external libraries, interpretation of manuals."
+							content: ["Mastery of many concepts in C, use of external libraries, interpretation of manuals."]
 						},
 						{
 							title: "Python",
-							content: "Strong knowledge, use of external libraries, use of documentation."
+							content: ["Strong knowledge, use of external libraries, use of documentation."]
 						},
 						{
 							title: "HTML/CSS/JS",
-							content: "Strong knowledge, use of APIs and frameworks (such as Jquery)."
+							content: ["Strong knowledge, use of APIs and frameworks (such as Jquery)."]
 						},
 						{
 							title: "PHP/Node.js",
-							content: "Strong knowledge of PHP, beginner in Node, use of documentation, online app deployment."
+							content: ["Strong knowledge of PHP, beginner in Node, use of documentation, online app deployment."]
 						},
 						{
 							title: "Linux",
-							content: "Base knowledge of navigation in a UNIX system, intermediate script writing."
+							content: ["Base knowledge of navigation in a UNIX system, intermediate script writing."]
 						},
 					]
 				},
 				other_skills: {
 					title: "Other skills",
+					items: [
+						{
+							title: "Languages",
+							content: ["English : written, understood and spoken fluently.", "German : written, understood and spoken level A2.", "Spanish : written, understood and spoken level A2."]
+						},
+						{
+							title: "Softwares",
+							content: ["Mastery of office software, Mastery of some 3D drawing software (Blender, SolidWorks) and video editing software (Final Cut Pro)."]
+						},
+						{
+							title: "Driving",
+							content: ["French driving licence B1 passed in 2018"]
+						},
+						{
+							title: "Music",
+							content: ["Piano, guitar, drums, bass, reading of sheet music. Ability to write a partition from ear."]
+						},
+					]
 				}
 			}
 		}
@@ -121,19 +139,19 @@ var resources =
 					items: [
 						{
 							title: "Octobre 2019 - Aujourd'hui",
-							content: "Début de formation à l’école 42",
+							content: ["Début de formation à l’école 42",]
 						},
 						{
 							title: "Février 2019 - Août 2019",
-							content: "Formation OpenClassrooms Développeur Junior - Diplôme obtenu"
+							content: ["Formation OpenClassrooms Développeur Junior", "Diplôme obtenu"]
 						},
 						{
 							title: "Septembre 2017 - Juillet 2018",
-							content: "1ère Année de DCG (Diplôme de comptabilité et gestion) en alternance"
+							content: ["1ère Année de DCG (Diplôme de comptabilité et gestion) en alternance"]
 						},
 						{
 							title: "Juin 2017",
-							content: "Bac S (Mention Très Bien obtenue)"
+							content: ["Bac S (Mention Très Bien obtenue)"]
 						},
 					],
 				},
@@ -142,7 +160,7 @@ var resources =
 					items: [
 						{
 							title: "Décembre 2018",
-							content: "Réalisation d'une mission en Freelance pour un client - Création d'un fichier Excel interactif en utilisant Visual Basics"
+							content: ["Réalisation d'une mission en Freelance pour un client", "Création d'un fichier Excel interactif en utilisant Visual Basics"]
 						}
 					]
 				},
@@ -151,23 +169,23 @@ var resources =
 					items: [
 						{
 							title: "C",
-							content: "Maîtrise de nombreux concepts en C, utilisation de librairies externe, interprétation de manuels."
+							content: ["Maîtrise de nombreux concepts en C, utilisation de librairies externe, interprétation de manuels."]
 						},
 						{
 							title: "Python",
-							content: "Bonne maîtrise, utilisation de librairies externe, utilisation de documentation."
+							content: ["Bonne maîtrise, utilisation de librairies externe, utilisation de documentation."]
 						},
 						{
 							title: "HTML/CSS/JS",
-							content: "Bonne maîtrise, utilisation d’APIs et de frameworks (Jquery)."
+							content: ["Bonne maîtrise, utilisation d’APIs et de frameworks (Jquery)."]
 						},
 						{
 							title: "PHP/Node.js",
-							content: "Bonne maîtrise de PHP, débutant Node, utilisation de documentation, déploiement d’applications en ligne."
+							content: ["Bonne maîtrise de PHP, débutant Node, utilisation de documentation, déploiement d’applications en ligne."]
 						},
 						{
 							title: "Linux",
-							content: "Connaissances de base de la navigation dans un système UNIX, création de scripts."
+							content: ["Connaissances de base de la navigation dans un système UNIX, création de scripts."]
 						},
 					]
 				},
@@ -176,19 +194,19 @@ var resources =
 					items: [
 						{
 							title: "Langues",
-							content: "Anglais : écrit, compris et parlé couramment.<br>Allemand : écrit, compris et parlé niveau A2.<br>Espagnol : écrit, compris et parlé niveau A2."
+							content: ["Anglais : écrit, compris et parlé couramment.", "Allemand : écrit, compris et parlé niveau A2.", "Espagnol : écrit, compris et parlé niveau A2."]
 						},
 						{
 							title: "Logiciels",
-							content: "Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D(Blender,SolidWorks) et de logiciels de montage vidéo (Final Cut Pro)."
+							content: ["Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D(Blender,SolidWorks) et de logiciels de montage vidéo (Final Cut Pro)."]
 						},
 						{
 							title: "Permis de conduire",
-							content: "Permis B1 acquis en 2018"
+							content: ["Permis B1 acquis en 2018"]
 						},
 						{
 							title: "Musique",
-							content: "Piano, guitare, batterie, basse, lecture clés de sol et fa. Capacité à écrire une partitiond’oreille."
+							content: ["Piano, guitare, batterie, basse, lecture clés de sol et fa. Capacité à écrire une partition d’oreille."]
 						},
 					]
 				}
@@ -208,12 +226,14 @@ Object.entries(resources.fr.translation.sections).forEach(([section_name, { item
 		for (let index = 0; index < items.length; index++) {
 			var card = document.createElement("div");
 			var card_title = document.createElement("h3");
-			var card_content = document.createElement("p");
 			card.setAttribute('class', 'card');
 			card.appendChild(card_title);
-			card.appendChild(card_content);
 			card_title.dataset.i18n = `sections.${section_name}.items.${index}.title`;
-			card_content.dataset.i18n = `sections.${section_name}.items.${index}.content`;
+			for (let j = 0; j < items[index].content.length; j++) {
+				var card_content = document.createElement("p");
+				card_content.dataset.i18n = `sections.${section_name}.items.${index}.content.${j}`;
+				card.appendChild(card_content);
+			}
 			document.getElementById(section_name).appendChild(card);
 		}
 	}
