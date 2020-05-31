@@ -38,14 +38,14 @@ var resources =
 			sections: {
 				profile: {
 					title: "My Profile",
-					text: "I am always looking for experiences that will expand my horizons as a developper. I am willing to work hard in order to acquire skills that will allow me to improve myself, and give meaning to what I do."
+					text: "I am always looking for experiences that will expand my horizons as a developper. I am ready to get involved in order to acquire skills that will allow me to improve myself, and give meaning to what I do."
 				},
 				education: {
 					title: "Education",
 					items: [
 						{
 							title: "October 2019 - Present",
-							content: ["Started school at 42 school of code",]
+							content: ["Started school at 42 school of code", "42 is a programming school with an alternative pedagogy, based on learning by doing."]
 						},
 						{
 							title: "February 2019 - August 2019",
@@ -132,14 +132,14 @@ var resources =
 			sections: {
 				profile: {
 					title: "Mon Profil",
-					text: "Je recherche avant tout des expériences qui me permettent d'avancer dans mon parcours de développeur. Je suis prêt à travailler dur pour acquérir des compétences qui me permettront de m'améliorer et de donner du sens à ce que je fais."
+					text: "Je recherche avant tout des expériences qui me permettent d'avancer dans mon parcours de développeur. Je suis prêt à m'impliquer pour acquérir des compétences qui me permettront de m'améliorer et de donner du sens à ce que je fais."
 				},
 				education: {
 					title: "Éducation",
 					items: [
 						{
 							title: "Octobre 2019 - Aujourd'hui",
-							content: ["Début de formation à l’école 42",]
+							content: ["Début de formation à l’école 42", "42 est une école de programmation à la pédagogie alternative, basée sur l'apprentissage par la pratique."]
 						},
 						{
 							title: "Février 2019 - Août 2019",
@@ -198,7 +198,7 @@ var resources =
 						},
 						{
 							title: "Logiciels",
-							content: ["Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D(Blender,SolidWorks) et de logiciels de montage vidéo (Final Cut Pro)."]
+							content: ["Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D (Blender,SolidWorks) et de logiciels de montage vidéo (Final Cut Pro)."]
 						},
 						{
 							title: "Permis de conduire",
@@ -225,7 +225,7 @@ Object.entries(resources.fr.translation.sections).forEach(([section_name, { item
 	if (typeof items == "object") {
 		for (let index = 0; index < items.length; index++) {
 			var card = document.createElement("div");
-			var card_title = document.createElement("h3");
+			var card_title = document.createElement("h4");
 			card.setAttribute('class', 'card');
 			card.appendChild(card_title);
 			card_title.dataset.i18n = `sections.${section_name}.items.${index}.title`;

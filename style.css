@@ -17,6 +17,11 @@ nav {
 	box-shadow: 7px 0px 0 #e7f7f4;
 }
 
+nav img {
+	width: 100%;
+	border-radius: 4px;
+}
+
 nav h1, nav h2, nav h3 {
 	color: #8febd5;
 }
@@ -48,13 +53,17 @@ section p {
 	margin: 3px auto;
 }
 
+h1, h2, h3 {
+	font-family: 'Jost', sans-serif;
+}
+
 h2 {
 	margin-top: 25px;
 	margin-bottom: 10px;
 	color: #2b2741;
 }
 
-h3 {
+h3, h4 {
 	margin-top: 3px;
 	margin-bottom: 3px;
 	color: #2b2741;
@@ -97,7 +106,7 @@ a {
     border-bottom: 7px solid #2b2741;
 }
 
-.card h3 {
+.card h4 {
 	color: #8febd5;
 	background-color: #2b2741;
 	padding: 4px 10px 4px 10px;
