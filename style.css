@@ -1,0 +1,89 @@
+body {
+	font-family: Cambria, Georgia, serif;
+}
+
+nav {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #2b2741;
+	color: #e7f7f4;
+	overflow-x: hidden;
+	padding: 20px 10px;
+	border-right: 7px solid #8febd5;
+	box-shadow: 7px 0px 0 #e7f7f4;
+}
+
+nav h1, nav h2, nav h3 {
+	color: #8febd5;
+}
+
+.main {
+	margin-left: 340px;
+}
+
+.row {
+	display: flex;
+}
+
+section {
+	width: 40%;
+	min-width: 450px;
+	margin: 0px 20px;
+}
+
+section div {
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+section p {
+	margin: 3px auto;
+}
+
+h2 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	color: #2b2741;
+}
+
+h3 {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	color: #2b2741;
+}
+
+a {
+	color: #8febd5;
+}
+
+.date-span {
+	border-left: 2px solid #2b2741;
+	position: relative;
+}
+.bullet-point {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	padding: 0;
+	margin: 0;
+	top: 8px;
+	left: -10px;
+	background-color: #8febd5;
+}
+.date-span h3 {
+	color: #8febd5;
+	background-color: #2b2741;
+	width: 340px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 0px 20px 0px 0px;
+	-moz-border-radius: 0px 20px 0px 0px;
+	-webkit-border-radius: 0px 20px 0px 0px;
+}
+.date-span p {
+	padding-left: 10px;
+}

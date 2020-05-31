@@ -2,7 +2,7 @@
 
 Here is my resume, it is available in French and English.
 
-Color palette:
-Navy: #2b2741
-Mint: #8febd5
+Color palette: <br>
+Navy: #2b2741 <br>
+Mint: #8febd5 <br>
 Light Mint: #e7f7f4
