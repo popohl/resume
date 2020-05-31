@@ -6,6 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="../style.css">
+	<!-- i18next JS -->
+	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+	<!-- framework for i18next -->
+	<script src="https://cdn.jsdelivr.net/npm/loc-i18next@0.1.4/loc-i18next.min.js"></script>
+	<!-- language script -->
+	<script defer src="./lang.js"></script>
 	<title>CV de Paul OHL</title>
 </head>
 
@@ -18,8 +24,10 @@
 		<h3 data-i18n="nav.contact"></h3>
 		<p><span data-i18n="nav.mail"></span><a data-i18n="[href]author.mail.link;author.mail.value"></a></p>
 		<p><span data-i18n="nav.phone"></span><a data-i18n="[href]author.phone.link;author.phone.value"></a></p>
-		<p><span data-i18n="nav.linkedin"></span><a data-i18n="[href]author.linkedin.link;author.linkedin.value" href=""></a></p>
-		<p><span data-i18n="nav.github"></span><a data-i18n="[href]author.github.link;author.github.value" href=""></a></p>
+		<p><span data-i18n="nav.linkedin"></span><a data-i18n="[href]author.linkedin.link;author.linkedin.value"
+				href=""></a></p>
+		<p><span data-i18n="nav.github"></span><a data-i18n="[href]author.github.link;author.github.value" href=""></a>
+		</p>
 	</nav>
 	<div class="main">
 		<div style="height: 100px">
@@ -37,38 +45,24 @@
 		<div class=row>
 			<section id="education">
 				<h2 data-i18n="sections.education.title"></h2>
-				<div class="card">
-					<h3>Octobre 2019 - Aujourd'hui</h3>
-					<p>Début de formation à l’école 42</p>
-				</div>
-				<div class="card">
-					<h3>Février 2019 - Août 2019</h3>
-					<p>Formation OpenClassrooms Développeur Junior - Diplôme obtenu</p>
-				</div>
-				<div class="card">
-					<h3>Septembre 2017 - Juillet 2018</h3>
-					<p>1ère Année de DCG (Diplôme de comptabilité et gestion) en alternance</p>
-				</div>
-				<div class="card">
-					<h3>Juin 2017</h3>
-					<p>Bac S (Mention Très Bien obtenue)</p>
-				</div>
 			</section>
 			<section id="experience">
 				<h2 data-i18n="sections.experience.title"></h2>
 				<div class="card">
 					<h3>Décembre 2018</h3>
-					<p>Réalisation d'une mission en Freelance pour un client - Création d'un fichier Excel interactif en
+					<p>Réalisation d'une mission en Freelance pour un client - Création d'un fichier Excel
+						interactif en
 						utilisant Visual Basics</p>
 				</div>
 			</section>
 		</div>
 		<div class="row">
-			<section id="software-skills">
+			<section id="software_skills">
 				<h2 data-i18n="sections.software_skills.title"></h2>
 				<div class="card">
 					<h3>C</h3>
-					<p>Maîtrise de nombreux concepts en C, utilisation de librairies externe, interprétation de manuels.
+					<p>Maîtrise de nombreux concepts en C, utilisation de librairies externe, interprétation de
+						manuels.
 					</p>
 				</div>
 				<div class="card">
@@ -81,7 +75,8 @@
 				</div>
 				<div class="card">
 					<h3>PHP/Node.js</h3>
-					<p>Bonne maîtrise de PHP, débutant Node, utilisation de documentation, déploiement d’applications en
+					<p>Bonne maîtrise de PHP, débutant Node, utilisation de documentation, déploiement
+						d’applications en
 						ligne.</p>
 				</div>
 				<div class="card">
@@ -89,7 +84,7 @@
 					<p>Connaissances de base de la navigation dans un système UNIX, création de scripts.</p>
 				</div>
 			</section>
-			<section id="other-skills">
+			<section id="other_skills">
 				<h2 data-i18n="sections.other_skills.title"></h2>
 				<div class="card">
 					<h3>Langues</h3>
@@ -99,7 +94,8 @@
 				</div>
 				<div class="card">
 					<h3>Logiciels</h3>
-					<p>Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D (Blender,
+					<p>Maîtrise des logiciels de bureautique, Maîtrise de quelques logiciels de dessin en 3D
+						(Blender,
 						SolidWorks) et de logiciels de montage vidéo (Final Cut Pro).</p>
 				</div>
 				<div class="card">
@@ -114,12 +110,6 @@
 			</section>
 		</div>
 	</div>
-	<!-- i18next JS -->
-	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
-	<!-- framework for i18next -->
-	<script src="https://cdn.jsdelivr.net/npm/loc-i18next@0.1.4/loc-i18next.min.js"></script>
-	<!-- language script -->
-	<script src="./lang.js"></script>
 </body>
 
 </html>
