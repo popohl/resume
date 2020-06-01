@@ -106,7 +106,7 @@ var resources =
 						},
 						{
 							title: "Driving",
-							content: ["French driving licence B1 passed in 2018"]
+							content: ["French driving licence B passed in 2018"]
 						},
 						{
 							title: "Music",
@@ -202,7 +202,7 @@ var resources =
 						},
 						{
 							title: "Permis de conduire",
-							content: ["Permis B1 acquis en 2018"]
+							content: ["Permis B acquis en 2018"]
 						},
 						{
 							title: "Musique",
